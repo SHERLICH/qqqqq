@@ -13,8 +13,9 @@ const files = {
   feed: path.join(dataDir, "feed.json"),
   chats: path.join(dataDir, "chats.json"),
 };
-const port = Number(process.env.PORT || 8787);
-const host = "0.0.0.0";
+
+// 优先读取 Render 自动分配的 PORT 环境变量，如果没有读到，就默认使用 3000 端口
+const port = process.env.PORT || 3000;
 const allowedOrigin = process.env.CORS_ORIGIN || "*";
 const defaultAvatar =
   "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=faces&auto=format&q=80";
@@ -159,6 +160,7 @@ const server = createServer(async (req, res) => {
   }
 });
 
-server.listen(port, host, () => {
-  console.log(`Auth API running at http://${host}:${port}`);
+// 启动服务
+server.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });
