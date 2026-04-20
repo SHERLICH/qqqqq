@@ -1,0 +1,18 @@
+[
+  {
+    "id": "2ec3ff58-4730-4ef1-8437-a4faf656ed19",
+    "phone": "+86+8618654673687",
+    "passwordHash": "e444dff1ba68a27e327484b63b7da2c32a32fc7a52a4a0587fcb10dbfdac1b44",
+    "nickname": "设计新星_6885",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=faces&auto=format&q=80",
+    "createdAt": "2026-04-20T11:50:40.367Z"
+  },
+  {
+    "id": "a511b323-b578-413c-9144-32ab7ba853fe",
+    "phone": "+86kkkkkk",
+    "passwordHash": "5de475c54f292d357b4665c4a06673354d0af583abec2ac51b752fdf06fcdbbd",
+    "nickname": "设计新星_4493",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=faces&auto=format&q=80",
+    "createdAt": "2026-04-20T11:51:20.151Z"
+  }
+]

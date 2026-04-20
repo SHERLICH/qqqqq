@@ -1,0 +1,21 @@
+{
+  "name": "circle-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:spa": "vite --open",
+    "build:spa": "vite build",
+    "dev:auth": "node auth-server.mjs",
+    "dev:full": "start cmd /k node auth-server.mjs && vite --open",
+    "start": "node auth-server.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}

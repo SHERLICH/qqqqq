@@ -1,0 +1,84 @@
+{
+  "threads": [
+    {
+      "id": "t1",
+      "name": "林晚",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=128&h=128&fit=crop&crop=face",
+      "preview": "llll",
+      "time": "刚刚",
+      "unread": false
+    },
+    {
+      "id": "t2",
+      "name": "活动小助手",
+      "avatar": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=128&h=128&fit=crop",
+      "preview": "你报名的「城市徒步」将在周六上午集合",
+      "time": "昨天",
+      "unread": false
+    },
+    {
+      "id": "t3",
+      "name": "阿哲",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=128&h=128&fit=crop&crop=face",
+      "preview": "好呀，下周可以一起探店",
+      "time": "周一",
+      "unread": false
+    }
+  ],
+  "messages": {
+    "t1": [
+      {
+        "id": "a1",
+        "from": "them",
+        "text": "嗨，看到你也在厦门～",
+        "time": "昨天 18:20"
+      },
+      {
+        "id": "a2",
+        "from": "me",
+        "text": "你好呀，最近常去环岛路跑步",
+        "time": "昨天 18:22"
+      },
+      {
+        "id": "a3",
+        "from": "them",
+        "text": "周末拍的那组海边照片发你啦～",
+        "time": "12:04"
+      },
+      {
+        "id": "63dc5a3b-8df4-46df-975d-5977b941621a",
+        "from": "me",
+        "text": "llll",
+        "time": "刚刚"
+      }
+    ],
+    "t2": [
+      {
+        "id": "b1",
+        "from": "them",
+        "text": "感谢报名「城市徒步」活动！",
+        "time": "10:00"
+      },
+      {
+        "id": "b2",
+        "from": "them",
+        "text": "周六 9:00 在体育中心北门集合，别迟到哦",
+        "time": "10:01"
+      }
+    ],
+    "t3": [
+      {
+        "id": "c1",
+        "from": "me",
+        "text": "你上次说的那家咖啡馆在哪？",
+        "time": "周一 15:10"
+      },
+      {
+        "id": "c2",
+        "from": "them",
+        "text": "好呀，下周可以一起探店",
+        "time": "周一 15:30"
+      }
+    ]
+  }
+}
